@@ -1,0 +1,60 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/blog/blog",
+        "pages/user/user",
+        "pages/home/home",
+        "pages/article01/article01",
+        "pages/article02/article02",
+        "pages/TravelTogether/TravelTogether",
+        "pages/test/t1",
+        "pages/test/t2",
+        "pages/JoinUs/JoinUs",
+        "pages/feedback/index",
+        "pages/developing/developing",
+        "pages/developing2/developing2"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#1296db",
+        "navigationBarTitleText": "佘田之窗",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "selectedColor": "#1296db",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "pages/images/首页.png",
+                "selectedIconPath": "pages/images/首页.png"
+            },
+            {
+                "pagePath": "pages/developing/developing",
+                "text": "论坛",
+                "iconPath": "pages/images/论坛.png",
+                "selectedIconPath": "pages/images/论坛.png"
+            },
+            {
+                "pagePath": "pages/developing2/developing2",
+                "text": "文创",
+                "iconPath": "pages/images/礼物.png",
+                "selectedIconPath": "pages/images/礼物.png"
+            },
+            {
+                "pagePath": "pages/TravelTogether/TravelTogether",
+                "text": "伴游",
+                "iconPath": "pages/images/地球.png",
+                "selectedIconPath": "pages/images/地球.png"
+            },
+             {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "pages/images/个人.png",
+                "selectedIconPath": "pages/images/个人.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
